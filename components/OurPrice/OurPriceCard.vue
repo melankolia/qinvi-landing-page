@@ -28,16 +28,18 @@
           :key="`features-${index}`"
           class="flex flex-row my-2.5 items-center -ml-3"
         >
-          <img
+          <nuxt-img
             v-if="element.icon"
-            src="@/assets/images/icons/icon-check.webp"
+            format="webp"
+            src="assets/images/icons/icon-check.webp"
             alt="Icon Feature Invitation Qinvi"
             width="18"
             class="mr-4"
           />
-          <img
+          <nuxt-img
             v-else
-            src="@/assets/images/icons/icon-wrong.webp"
+            format="webp"
+            src="assets/images/icons/icon-wrong.webp"
             alt="Icon Feature Invitation Qinvi"
             width="22"
             class="mr-3.5"

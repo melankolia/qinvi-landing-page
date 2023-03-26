@@ -2,10 +2,10 @@
   <div class="flex flex-row justify-center m-0 lg:mt-20 lg:mr-[10%]">
     <div class="flex flex-row">
       <div class="flex-col -mb-3.5 hidden lg:flex">
-        <img
+        <nuxt-img
+          format="webp"
           width="288"
-          height="224"
-          src="@/assets/images/phone-qinvi.webp"
+          src="assets/images/phone-qinvi.webp"
           alt="Qinvi Example Phone Wedding Invitation"
         />
       </div>

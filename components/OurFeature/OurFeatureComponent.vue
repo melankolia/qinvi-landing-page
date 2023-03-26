@@ -17,13 +17,15 @@
       class="flex flex-col lg:items-start lg:flex-row lg:justify-around xl:justify-between xl:mx-[15%] 2xl:mx-[20%]"
     >
       <div class="flex flex-col mb-2.5 lg:mb-0">
-        <img
-          src="@/assets/images/mobile-iphone-feature.webp"
+        <nuxt-img
+          src="assets/images/mobile-iphone-feature.webp"
           alt="Our Features Qinvi Invitation"
           class="block lg:hidden"
+          format="webp"
         />
-        <img
-          src="@/assets/images/iphone-features.webp"
+        <nuxt-img
+          format="webp"
+          src="assets/images/iphone-features.webp"
           alt="Our Features Qinvi Invitation"
           width="360"
           class="self-center lg:self-start lg:block hidden"
@@ -40,7 +42,10 @@
           <div
             class="hidden lg:flex flex-col rounded-full box-shadow shadow-sm p-2.5 mr-2 w-[40px] h-[40px]"
           >
-            <img src="@/assets/images/icon-group.png" alt="Qinvi Invitation" />
+            <nuxt-img
+              src="assets/images/icon-group.png"
+              alt="Qinvi Invitation"
+            />
           </div>
           <p class="body-7 text-grey-10 mb-4 lg:mb-12 px-14 lg:px-0">
             Pengantin tidak perlu membuat link <br class="hidden lg:flex" />
@@ -52,7 +57,10 @@
           <div
             class="hidden lg:flex flex-col rounded-full box-shadow shadow-sm p-2.5 mr-2 w-[40px] h-[40px]"
           >
-            <img src="@/assets/images/icon-copy.png" alt="Qinvi Invitation" />
+            <nuxt-img
+              src="assets/images/icon-copy.png"
+              alt="Qinvi Invitation"
+            />
           </div>
           <p class="body-7 text-grey-10 px-10 lg:px-0">
             Kirim Whatsapp via Smart Dashboard <br class="hidden lg:flex" />
@@ -80,14 +88,16 @@
           whatsapp
         </p>
       </div>
-      <img
-        src="@/assets/images/ipad-buku-tamu.webp"
+      <nuxt-img
+        format="webp"
+        src="assets/images/ipad-buku-tamu.webp"
         alt="Feature Buku Tamu Qinvi Invitation"
         class="hidden lg:block"
       />
-      <img
+      <nuxt-img
+        format="webp"
         width="624"
-        src="@/assets/images/mobile-buku-tamu.webp"
+        src="assets/images/mobile-buku-tamu.webp"
         alt="Feature Buku Tamu Qinvi Invitation"
         class="block lg:hidden mb-2.5"
       />
@@ -95,15 +105,17 @@
     <div
       class="flex flex-col lg:flex-row justify-around xl:justify-between 2xl:mx-[15%] ml-0 lg:ml-[5%] xl:ml-[15%] 2xl:ml-[20%] xl:mr-[10%] mt-0 lg:mt-32"
     >
-      <img
+      <nuxt-img
+        format="webp"
         width="480"
-        src="@/assets/images/iphone-invitation.webp"
+        src="assets/images/iphone-invitation.webp"
         alt="Feature Buku Tamu Qinvi Invitation"
         class="hidden lg:block"
       />
-      <img
+      <nuxt-img
+        format="webp"
         width="480"
-        src="@/assets/images/mobile-invitation.webp"
+        src="assets/images/mobile-invitation.webp"
         alt="Feature Buku Tamu Qinvi Invitation"
         class="block lg:hidden"
       />
@@ -134,8 +146,8 @@
           next level!
         </p>
         <div class="flex flex-row my-0.5">
-          <img
-            src="@/assets/images/icons/icon-note.png"
+          <nuxt-img
+            src="assets/images/icons/icon-note.png"
             alt="Icon Invitation Qinvi"
             width="22"
             class="h-[24px] mr-2"
@@ -143,16 +155,16 @@
           <p class="body-7 text-brown-30">Undangan Website Paket Lamar</p>
         </div>
         <div class="flex flex-row items-center my-0.5">
-          <img
-            src="@/assets/images/icons/icon-wa.png"
+          <nuxt-img
+            src="assets/images/icons/icon-wa.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
           />
           <p class="body-7 text-brown-30">Whatsapp</p>
         </div>
         <div class="flex flex-row items-center my-0.5">
-          <img
-            src="@/assets/images/icons/icon-dashboard.png"
+          <nuxt-img
+            src="assets/images/icons/icon-dashboard.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
           />
@@ -162,8 +174,8 @@
           </p>
         </div>
         <div class="flex flex-row items-center my-0.5">
-          <img
-            src="@/assets/images/icons/icon-meeting.png"
+          <nuxt-img
+            src="assets/images/icons/icon-meeting.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
           />
@@ -173,40 +185,41 @@
           </p>
         </div>
         <div class="flex flex-row items-center my-0.5">
-          <img
-            src="@/assets/images/icons/icon-file.png"
+          <nuxt-img
+            src="assets/images/icons/icon-file.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
           />
           <p class="body-7 text-brown-30">E-Invitation</p>
         </div>
         <div class="flex flex-row items-center my-0.5">
-          <img
-            src="@/assets/images/icons/icon-gears.png"
+          <nuxt-img
+            src="assets/images/icons/icon-gears.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
           />
           <p class="body-7 text-brown-30">1 Custom Template Blast</p>
         </div>
         <div class="flex flex-row items-center my-0.5">
-          <img
-            src="@/assets/images/icons/icon-file.png"
+          <nuxt-img
+            src="assets/images/icons/icon-file.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
           />
           <p class="body-7 text-brown-30">Virtual & Group Assistan</p>
         </div>
         <div class="flex flex-row items-center my-0.5">
-          <img
-            src="@/assets/images/icons/icon-qr.png"
+          <nuxt-img
+            src="assets/images/icons/icon-qr.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
           />
           <p class="body-7 text-brown-30">QR Code (Coming Soon)</p>
         </div>
       </div>
-      <img
-        src="@/assets/images/icon-couple.webp"
+      <nuxt-img
+        format="webp"
+        src="assets/images/icon-couple.webp"
         width="335"
         alt="Qinvi Icon Couple"
         class="h-[300px] hidden lg:block"

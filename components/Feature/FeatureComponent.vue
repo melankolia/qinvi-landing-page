@@ -12,8 +12,8 @@
         <br class="hidden lg:block" />
         Butuhkan
       </p>
-      <img
-        src="@/assets/images/laptop-qinvi.webp"
+      <nuxt-img
+        src="assets/images/laptop-qinvi.webp"
         alt="Image Gambar Laptop Qinvi"
         class="block lg:hidden my-12"
       />
@@ -33,27 +33,23 @@
 </template>
 
 <script setup lang="ts">
-import PaperPlane from "~/assets/images/paper-plane.webp";
-import Infinity from "~/assets/images/infinity.webp";
-import People from "~/assets/images/people.webp";
-
 import type { FeatureCardProps } from "@/components/Feature/interfaces/Card";
 
 const features: Ref<FeatureCardProps[]> = ref([
   {
-    icon: PaperPlane,
+    icon: "assets/images/paper-plane.webp",
     title: "Kirim Undangan",
     description:
       "Persiapkan Acaramu dengan Mudah: Sebarkan Undanganmu ke Teman dan Keluarga dengan Cepat dan Mudah Hanya dengan Beberapa Klik",
   },
   {
-    icon: Infinity,
+    icon: "assets/images/infinity.webp",
     title: "Unlimited Access",
     description:
       "Akses Tanpa Batas dengan Hanya Satu Pembayaran: Nikmati Kemudahan Bayar Sekali Akses Selamanya dengan Produk Kami yang Terbaik",
   },
   {
-    icon: People,
+    icon: "assets/images/people.webp",
     title: "Fast Response Admin",
     description:
       "Nikmati Layanan Fast Response yang Cepat dan Profesional untuk Menyelesaikan Masalah Anda",

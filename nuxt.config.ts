@@ -1,7 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss", "vite-plugin-vue-type-imports/nuxt"],
-  css: ["@/assets/index.css"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "vite-plugin-vue-type-imports/nuxt",
+    "@nuxt/image-edge",
+  ],
+  css: ["assets/index.css"],
   app: {
     head: {
       meta: [

@@ -5,7 +5,12 @@
     <div
       class="flex flex-col items-center justify-center rounded-full bg-none lg:bg-brown-20 h-[75px] w-[75px] -mt-20"
     >
-      <img :width="isInfinity ? 75 : 45" :src="props.icon" :alt="props.title" />
+      <nuxt-img
+        format="webp"
+        :width="isInfinity ? 75 : 45"
+        :src="props.icon"
+        :alt="props.title"
+      />
     </div>
     <p class="header-4 text-secondary my-4 lg:my-12">{{ props.title }}</p>
     <p class="body-3 text-grey-10">

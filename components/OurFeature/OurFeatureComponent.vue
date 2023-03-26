@@ -18,12 +18,14 @@
     >
       <div class="flex flex-col mb-2.5 lg:mb-0">
         <nuxt-img
+          preload
           src="assets/images/mobile-iphone-feature.webp"
           alt="Our Features Qinvi Invitation"
           class="block lg:hidden"
           format="webp"
         />
         <nuxt-img
+          preload
           format="webp"
           src="assets/images/iphone-features.webp"
           alt="Our Features Qinvi Invitation"
@@ -43,6 +45,7 @@
             class="hidden lg:flex flex-col rounded-full box-shadow shadow-sm p-2.5 mr-2 w-[40px] h-[40px]"
           >
             <nuxt-img
+              preload
               src="assets/images/icon-group.png"
               alt="Qinvi Invitation"
             />
@@ -58,6 +61,7 @@
             class="hidden lg:flex flex-col rounded-full box-shadow shadow-sm p-2.5 mr-2 w-[40px] h-[40px]"
           >
             <nuxt-img
+              preload
               src="assets/images/icon-copy.png"
               alt="Qinvi Invitation"
             />
@@ -89,12 +93,14 @@
         </p>
       </div>
       <nuxt-img
+        preload
         format="webp"
         src="assets/images/ipad-buku-tamu.webp"
         alt="Feature Buku Tamu Qinvi Invitation"
         class="hidden lg:block"
       />
       <nuxt-img
+        preload
         format="webp"
         width="624"
         src="assets/images/mobile-buku-tamu.webp"
@@ -106,6 +112,7 @@
       class="flex flex-col lg:flex-row justify-around xl:justify-between 2xl:mx-[15%] ml-0 lg:ml-[5%] xl:ml-[15%] 2xl:ml-[20%] xl:mr-[10%] mt-0 lg:mt-32"
     >
       <nuxt-img
+        preload
         format="webp"
         width="480"
         src="assets/images/iphone-invitation.webp"
@@ -113,6 +120,7 @@
         class="hidden lg:block"
       />
       <nuxt-img
+        preload
         format="webp"
         width="480"
         src="assets/images/mobile-invitation.webp"
@@ -147,6 +155,7 @@
         </p>
         <div class="flex flex-row my-0.5">
           <nuxt-img
+            preload
             src="assets/images/icons/icon-note.png"
             alt="Icon Invitation Qinvi"
             width="22"
@@ -156,6 +165,7 @@
         </div>
         <div class="flex flex-row items-center my-0.5">
           <nuxt-img
+            preload
             src="assets/images/icons/icon-wa.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
@@ -164,6 +174,7 @@
         </div>
         <div class="flex flex-row items-center my-0.5">
           <nuxt-img
+            preload
             src="assets/images/icons/icon-dashboard.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
@@ -175,6 +186,7 @@
         </div>
         <div class="flex flex-row items-center my-0.5">
           <nuxt-img
+            preload
             src="assets/images/icons/icon-meeting.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
@@ -186,6 +198,7 @@
         </div>
         <div class="flex flex-row items-center my-0.5">
           <nuxt-img
+            preload
             src="assets/images/icons/icon-file.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
@@ -194,6 +207,7 @@
         </div>
         <div class="flex flex-row items-center my-0.5">
           <nuxt-img
+            preload
             src="assets/images/icons/icon-gears.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
@@ -202,6 +216,7 @@
         </div>
         <div class="flex flex-row items-center my-0.5">
           <nuxt-img
+            preload
             src="assets/images/icons/icon-file.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
@@ -210,6 +225,7 @@
         </div>
         <div class="flex flex-row items-center my-0.5">
           <nuxt-img
+            preload
             src="assets/images/icons/icon-qr.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
@@ -218,6 +234,7 @@
         </div>
       </div>
       <nuxt-img
+        preload
         format="webp"
         src="assets/images/icon-couple.webp"
         width="335"

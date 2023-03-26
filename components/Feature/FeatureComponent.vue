@@ -13,6 +13,7 @@
         Butuhkan
       </p>
       <nuxt-img
+        preload
         src="assets/images/laptop-qinvi.webp"
         alt="Image Gambar Laptop Qinvi"
         class="block lg:hidden my-12"

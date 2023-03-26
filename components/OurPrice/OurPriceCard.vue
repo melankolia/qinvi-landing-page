@@ -30,6 +30,7 @@
         >
           <nuxt-img
             v-if="element.icon"
+            preload
             format="webp"
             src="assets/images/icons/icon-check.webp"
             alt="Icon Feature Invitation Qinvi"
@@ -38,6 +39,7 @@
           />
           <nuxt-img
             v-else
+            preload
             format="webp"
             src="assets/images/icons/icon-wrong.webp"
             alt="Icon Feature Invitation Qinvi"

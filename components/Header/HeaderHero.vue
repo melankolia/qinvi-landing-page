@@ -3,6 +3,7 @@
     <div class="flex flex-row">
       <div class="flex-col -mb-3.5 hidden lg:flex">
         <nuxt-img
+          preload
           format="webp"
           width="288"
           src="assets/images/phone-qinvi.webp"

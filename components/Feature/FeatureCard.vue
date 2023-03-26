@@ -6,6 +6,7 @@
       class="flex flex-col items-center justify-center rounded-full bg-none lg:bg-brown-20 h-[75px] w-[75px] -mt-20"
     >
       <nuxt-img
+        preload
         format="webp"
         :width="isInfinity ? 75 : 45"
         :src="props.icon"

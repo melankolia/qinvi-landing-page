@@ -11,7 +11,7 @@ export default defineNuxtConfig({
       meta: [
         { name: "viewport", content: "width=device-width, initial-scale=1" },
       ],
-      title: "Qinvi.my.id",
+      title: "Qinvi",
       link: [
         {
           rel: "stylesheet",

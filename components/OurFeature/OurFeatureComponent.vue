@@ -142,7 +142,7 @@
     >
       <div class="flex flex-col mx-0 lg:mr-28">
         <p class="header-6 text-brown-30 mb-2">
-          Take your wedding festivities to the <br />
+          Take your wedding festivities to the <br class="hidden lg:block" />
           next level!
         </p>
         <div class="flex flex-row my-0.5">

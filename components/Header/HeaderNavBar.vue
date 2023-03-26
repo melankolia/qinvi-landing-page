@@ -3,11 +3,10 @@
     class="flex flex-row justify-between -ml-8 -mt-4 lg:m-0 lg:pl-4 lg:pr-20"
   >
     <nuxt-img
-      format="webp"
-      class="mt-6"
-      src="assets/images/logo-qinvi.webp"
+      src="assets/images/logo-qinvi.png"
       alt="Qinvi Logo"
       width="210"
+      class="-mt-10 -mb-20"
     />
     <div class="hidden lg:flex flex-row items-center space-x-14">
       <p class="caption-1 text-black-10">Home</p>

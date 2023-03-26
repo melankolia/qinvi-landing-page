@@ -1,11 +1,10 @@
 <template>
   <div class="flex flex-col items-center bg-brown-10 pb-7">
     <nuxt-img
-      format="webp"
-      class="mt-6"
-      src="assets/images/logo-qinvi.webp"
+      src="assets/images/logo-qinvi.png"
       alt="Qinvi Logo"
       width="210"
+      class="-mb-10"
     />
     <div class="hidden lg:flex flex-col items-center">
       <p class="text-secondary body-5">Subscribe to get our Newsletter</p>
@@ -22,12 +21,10 @@
         </button>
       </div>
     </div>
-    <div
-      class="flex lg:hidden text-secondary flex-col px-8 space-y-4 mt-10 mb-6"
-    >
+    <div class="flex lg:hidden text-secondary flex-col px-8 space-y-4">
       <div class="flex flex-row">
         <nuxt-img
-          src="@/assets/images/icons/icon-location.png"
+          src="assets/images/icons/icon-location.png"
           alt="Icon Location Qinvi"
           class="h-[28px] mr-2"
         />
@@ -38,7 +35,7 @@
       </div>
       <div class="flex flex-row">
         <nuxt-img
-          src="@/assets/images/icons/icon-contact.png"
+          src="assets/images/icons/icon-contact.png"
           alt="Icon Location Qinvi"
           class="h-[28px] mr-2"
         />
@@ -46,7 +43,7 @@
       </div>
       <div class="flex flex-row">
         <nuxt-img
-          src="@/assets/images/icons/icon-email.png"
+          src="assets/images/icons/icon-email.png"
           alt="Icon Location Qinvi"
           class="h-[20px] ml-0.5 mr-2.5"
         />
@@ -54,17 +51,17 @@
       </div>
       <div class="flex flex-row justify-center space-x-6 pt-8">
         <nuxt-img
-          src="@/assets/images/icons/icon-twitter.png"
+          src="assets/images/icons/icon-twitter.png"
           alt="Twitter Qinvi"
           class="h-[40px] hover:cursor-pointer"
         />
         <nuxt-img
-          src="@/assets/images/icons/icon-facebook.png"
+          src="assets/images/icons/icon-facebook.png"
           alt="Facebook Qinvi"
           class="h-[40px] hover:cursor-pointer"
         />
         <nuxt-img
-          src="@/assets/images/icons/icon-linkedin.png"
+          src="assets/images/icons/icon-linkedin.png"
           alt="Linkedin Qinvi"
           class="h-[40px] hover:cursor-pointer"
         />

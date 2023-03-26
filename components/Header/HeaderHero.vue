@@ -10,7 +10,7 @@
         />
       </div>
       <div
-        class="flex flex-col items-center mt-28 lg:mt-0 lg:items-start mx-4 lg:ml-16"
+        class="flex flex-col items-center mt-20 lg:mt-0 lg:items-start mx-4 lg:ml-16"
       >
         <p class="header-1 text-primary text-center lg:text-left">
           Make Your Wedding <br />

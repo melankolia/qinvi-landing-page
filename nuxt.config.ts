@@ -5,6 +5,9 @@ export default defineNuxtConfig({
     "vite-plugin-vue-type-imports/nuxt",
     "@nuxt/image-edge",
   ],
+  nitro: {
+    compressPublicAssets: true,
+  },
   css: ["assets/index.css"],
   app: {
     head: {

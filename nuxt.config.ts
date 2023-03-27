@@ -11,6 +11,9 @@ export default defineNuxtConfig({
   css: ["assets/index.css"],
   app: {
     head: {
+      htmlAttrs: {
+        lang: "en",
+      },
       meta: [
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         {
@@ -20,6 +23,7 @@ export default defineNuxtConfig({
         },
       ],
       title: "Qinvi",
+      charset: "utf-8",
       link: [
         {
           rel: "stylesheet",

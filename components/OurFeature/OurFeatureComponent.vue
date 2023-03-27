@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col my-12">
+  <div id="feature" class="flex flex-col my-12">
     <div class="flex flex-col mb-20 items-center text-center">
       <p class="header-2 text-primary mb-4">
         Our
@@ -23,12 +23,14 @@
           alt="Our Features Qinvi Invitation"
           class="block lg:hidden"
           format="webp"
+          height="513"
         />
         <nuxt-img
           preload
           format="webp"
           src="assets/images/iphone-features.webp"
           alt="Our Features Qinvi Invitation"
+          height="658"
           width="360"
           class="self-center lg:self-start lg:block hidden"
         />
@@ -45,6 +47,8 @@
             class="hidden lg:flex flex-col rounded-full box-shadow shadow-sm p-2.5 mr-2 w-[40px] h-[40px]"
           >
             <nuxt-img
+              height="40"
+              width="40"
               preload
               src="assets/images/icon-group.png"
               alt="Qinvi Invitation"
@@ -62,6 +66,8 @@
           >
             <nuxt-img
               preload
+              height="40"
+              width="40"
               src="assets/images/icon-copy.png"
               alt="Qinvi Invitation"
             />
@@ -95,6 +101,8 @@
       <nuxt-img
         preload
         format="webp"
+        height="423"
+        width="684"
         src="assets/images/ipad-buku-tamu.webp"
         alt="Feature Buku Tamu Qinvi Invitation"
         class="hidden lg:block"
@@ -102,7 +110,7 @@
       <nuxt-img
         preload
         format="webp"
-        width="624"
+        height="546"
         src="assets/images/mobile-buku-tamu.webp"
         alt="Feature Buku Tamu Qinvi Invitation"
         class="block lg:hidden mb-2.5"
@@ -114,6 +122,7 @@
       <nuxt-img
         preload
         format="webp"
+        height="607"
         width="480"
         src="assets/images/iphone-invitation.webp"
         alt="Feature Buku Tamu Qinvi Invitation"
@@ -122,7 +131,7 @@
       <nuxt-img
         preload
         format="webp"
-        width="480"
+        height="515"
         src="assets/images/mobile-invitation.webp"
         alt="Feature Buku Tamu Qinvi Invitation"
         class="block lg:hidden"
@@ -158,6 +167,7 @@
             preload
             src="assets/images/icons/icon-note.png"
             alt="Icon Invitation Qinvi"
+            height="24"
             width="22"
             class="h-[24px] mr-2"
           />
@@ -168,6 +178,8 @@
             preload
             src="assets/images/icons/icon-wa.png"
             alt="Icon Invitation Qinvi"
+            height="18"
+            width="21.7"
             class="h-[18px] mr-2"
           />
           <p class="body-7 text-brown-30">Whatsapp</p>
@@ -177,6 +189,8 @@
             preload
             src="assets/images/icons/icon-dashboard.png"
             alt="Icon Invitation Qinvi"
+            height="18"
+            width="22"
             class="h-[18px] mr-2"
           />
           <p class="body-7 text-brown-30">
@@ -190,6 +204,8 @@
             src="assets/images/icons/icon-meeting.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
+            height="18"
+            width="21.7"
           />
           <p class="body-7 text-brown-30">
             Meeting Bersama
@@ -202,6 +218,8 @@
             src="assets/images/icons/icon-file.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
+            height="18"
+            width="21.7"
           />
           <p class="body-7 text-brown-30">E-Invitation</p>
         </div>
@@ -211,6 +229,8 @@
             src="assets/images/icons/icon-gears.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
+            height="18"
+            width="21.7"
           />
           <p class="body-7 text-brown-30">1 Custom Template Blast</p>
         </div>
@@ -220,6 +240,8 @@
             src="assets/images/icons/icon-file.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
+            height="18"
+            width="21.7"
           />
           <p class="body-7 text-brown-30">Virtual & Group Assistan</p>
         </div>
@@ -229,6 +251,8 @@
             src="assets/images/icons/icon-qr.png"
             alt="Icon Invitation Qinvi"
             class="h-[18px] mr-2"
+            height="18"
+            width="21.7"
           />
           <p class="body-7 text-brown-30">QR Code (Coming Soon)</p>
         </div>
@@ -237,9 +261,10 @@
         preload
         format="webp"
         src="assets/images/icon-couple.webp"
+        height="300"
         width="335"
         alt="Qinvi Icon Couple"
-        class="h-[300px] hidden lg:block"
+        class="hidden lg:block"
       />
     </div>
   </div>

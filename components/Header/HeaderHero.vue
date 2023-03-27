@@ -5,6 +5,7 @@
         <nuxt-img
           preload
           format="webp"
+          height="353"
           width="288"
           src="assets/images/phone-qinvi.webp"
           alt="Qinvi Example Phone Wedding Invitation"
@@ -24,8 +25,10 @@
           Mudahkan Persiapan Acaramu dengan Fitur <br class="hidden lg:block" />
           Sebar Undangan yang Mudah Dipakai
         </p>
-        <div class="flex flex-row my-20 lg:my-0">
-          <button class="bg-brown-20 rounded-full text-white py-3 px-6">
+        <div class="flex flex-row my-20 lg:my-0" @click="handleContact">
+          <button
+            class="bg-brown-20 hover:bg-brown-40 active:bg-brown-50 focus:outline-none focus:ring focus:ring-brown-00 transition-all rounded-full text-white py-3 px-6"
+          >
             <span>Contact Now</span>
           </button>
         </div>
@@ -34,4 +37,10 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const handleContact = (): void => {
+  window.open(
+    "https://api.whatsapp.com/send/?phone=6281392608448&text&type=phone_number&app_absent=0"
+  );
+};
+</script>

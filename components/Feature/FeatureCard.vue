@@ -8,6 +8,7 @@
       <nuxt-img
         preload
         format="webp"
+        :height="isInfinity ? 45 : 35"
         :width="isInfinity ? 75 : 45"
         :src="props.icon"
         :alt="props.title"

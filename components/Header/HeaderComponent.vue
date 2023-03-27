@@ -1,5 +1,8 @@
 <template>
-  <div class="flex flex-col bg-brown-10 overflow-hidden header-radius">
+  <div
+    id="home"
+    class="flex flex-col bg-brown-10 overflow-hidden header-radius"
+  >
     <HeaderNavBar />
     <HeaderHero />
   </div>

@@ -17,6 +17,7 @@
         src="assets/images/laptop-qinvi.webp"
         alt="Image Gambar Laptop Qinvi"
         class="block lg:hidden my-12"
+        height="239"
       />
     </div>
     <div

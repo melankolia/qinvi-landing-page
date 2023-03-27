@@ -34,6 +34,7 @@
             format="webp"
             src="assets/images/icons/icon-check.webp"
             alt="Icon Feature Invitation Qinvi"
+            height="18"
             width="18"
             class="mr-4"
           />
@@ -43,13 +44,17 @@
             format="webp"
             src="assets/images/icons/icon-wrong.webp"
             alt="Icon Feature Invitation Qinvi"
+            height="22"
             width="22"
             class="mr-3.5"
           />
           <p class="caption-3 mb-0" v-html="element.description" />
         </div>
       </div>
-      <button class="bg-brown-20 rounded-full mt-10 mx-6">
+      <button
+        class="bg-brown-20 hover:bg-brown-40 active:bg-brown-50 focus:outline-none focus:ring focus:ring-brown-00 transition-all rounded-full mt-10 mx-6"
+        @click="handleContact"
+      >
         <p class="text-white caption-3 py-2 px-24">{{ props.buttonText }}</p>
       </button>
     </div>
@@ -60,6 +65,12 @@
 import { OurPriceCardProps } from "@/components/OurPrice/interfaces/CardOurPrice";
 
 const props = defineProps<OurPriceCardProps>();
+
+const handleContact = (): void => {
+  window.open(
+    "https://api.whatsapp.com/send/?phone=6281392608448&text&type=phone_number&app_absent=0"
+  );
+};
 </script>
 
 <style scoped></style>

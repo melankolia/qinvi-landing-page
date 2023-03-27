@@ -10,6 +10,11 @@ export default defineNuxtConfig({
     head: {
       meta: [
         { name: "viewport", content: "width=device-width, initial-scale=1" },
+        {
+          name: "description",
+          content:
+            "Make Your Wedding Invitations Timeless and a Modern Twist with Qinvi.id",
+        },
       ],
       title: "Qinvi",
       link: [

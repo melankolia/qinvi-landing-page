@@ -16,8 +16,10 @@
         website yang sering diajukan.
       </p>
       <div>
-        <button class="border rounded-full border-primary px-8 py-1.5">
-          <p class="caption-3 text-primary">Mau Konsultasi Via Whatsapp?</p>
+        <button
+          class="border rounded-full border-primary px-8 py-1.5 text-primary hover:text-white hover:bg-primary active:bg-brown-60 focus:outline-none focus:ring focus:ring-brown-00 transition-all"
+        >
+          <p class="caption-3">Mau Konsultasi Via Whatsapp?</p>
         </button>
       </div>
     </div>

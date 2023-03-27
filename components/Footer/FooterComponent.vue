@@ -1,9 +1,10 @@
 <template>
-  <div class="flex flex-col items-center bg-brown-10 pb-7">
+  <div id="subscribe" class="flex flex-col items-center bg-brown-10 pb-7">
     <nuxt-img
       preload
       src="assets/images/logo-qinvi.png"
       alt="Qinvi Logo"
+      height="210"
       width="210"
       class="-mb-10"
     />
@@ -17,7 +18,9 @@
           class="rounded-full pl-5"
           placeholder="Your Email"
         />
-        <button class="bg-brown-20 rounded-full text-white px-4 py-1">
+        <button
+          class="bg-brown-20 hover:bg-brown-40 active:bg-brown-50 focus:outline-none focus:ring focus:ring-brown-00 transition-all rounded-full text-white px-4 py-1"
+        >
           <span class="caption-2">Subscribe</span>
         </button>
       </div>
@@ -29,6 +32,8 @@
           src="assets/images/icons/icon-location.png"
           alt="Icon Location Qinvi"
           class="h-[28px] mr-2"
+          height="28"
+          width="28"
         />
         <p class="caption-4">
           Jl. Karonsih Utara VIII No.360, Ngaliyan, Kec. Ngaliyan, Kota
@@ -41,6 +46,8 @@
           src="assets/images/icons/icon-contact.png"
           alt="Icon Location Qinvi"
           class="h-[28px] mr-2"
+          height="28"
+          width="28"
         />
         <p class="caption-4">62 813-9260-8448</p>
       </div>
@@ -50,6 +57,8 @@
           src="assets/images/icons/icon-email.png"
           alt="Icon Location Qinvi"
           class="h-[20px] ml-0.5 mr-2.5"
+          height="20"
+          width="24"
         />
         <p class="caption-4">adm.qinvi@gmail.com</p>
       </div>
@@ -59,18 +68,24 @@
           src="assets/images/icons/icon-twitter.png"
           alt="Twitter Qinvi"
           class="h-[40px] hover:cursor-pointer"
+          height="40"
+          width="40"
         />
         <nuxt-img
           preload
           src="assets/images/icons/icon-facebook.png"
           alt="Facebook Qinvi"
           class="h-[40px] hover:cursor-pointer"
+          height="40"
+          width="40"
         />
         <nuxt-img
           preload
           src="assets/images/icons/icon-linkedin.png"
           alt="Linkedin Qinvi"
           class="h-[40px] hover:cursor-pointer"
+          height="40"
+          width="40"
         />
       </div>
     </div>

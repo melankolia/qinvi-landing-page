@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col my-20">
+  <div id="price" class="flex flex-col my-20">
     <div class="flex flex-col mb-14 items-center text-center">
       <p class="header-2 text-secondary">
         Price for

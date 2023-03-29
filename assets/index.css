@@ -1,3 +1,5 @@
+@import './fonts.css';
+
 #__nuxt {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -11,6 +13,13 @@
 body {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+}
+
+.logo-text {
+    font-family: "TAN Pearl", "sans-serif";
+    font-weight: normal;
+    font-size: 26px;
+    letter-spacing: 0.2rem;
 }
 
 .header-1 {

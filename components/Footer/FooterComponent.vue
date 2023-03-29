@@ -1,13 +1,6 @@
 <template>
   <div id="subscribe" class="flex flex-col items-center bg-brown-10 pb-7">
-    <nuxt-img
-      preload
-      src="assets/images/logo-qinvi.png"
-      alt="Qinvi Logo"
-      height="210"
-      width="210"
-      class="-mb-10"
-    />
+    <p class="logo-text my-10">QINVI</p>
     <div class="hidden lg:flex flex-col items-center">
       <p class="text-secondary body-5">Subscribe to get our Newsletter</p>
       <div class="flex flex-row space-x-3 my-10">

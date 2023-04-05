@@ -13,6 +13,9 @@
       <p class="header-7 text-black-30 mb-8 text-center">
         {{ props.package }}
       </p>
+      <p v-if="isCustom" class="header-10 text-grey-20 text-center">
+        Start From
+      </p>
       <div class="flex flex-row justify-center mb-2">
         <p class="text-black-30 header-8 mr-2.5">{{ props.price }}</p>
         <div class="flex flex-col justify-center">
@@ -71,6 +74,8 @@ const handleContact = (): void => {
     "https://api.whatsapp.com/send/?phone=6281392608448&text&type=phone_number&app_absent=0"
   );
 };
+
+const isCustom = computed(() => props.package?.toLowerCase() === "custom");
 </script>
 
 <style scoped></style>
